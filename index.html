@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="fireDOOM in html" />
+    <title>fireDOOM Generator</title>
+    <link rel="stylesheet" href="/css/global.css" />
+  </head>
+  <body>
+    <div class="view">
+      <div class="block-container">
+        <canvas id="fireDOOM"></canvas>
+      </div>
+      <form action="" class="container">
+        <div class="inline">
+          <label class="wd75" for="force">force</label>
+          <input
+            type="number"
+            min="0"
+            max="36"
+            name="force"
+            id="forceValue"
+            value="36"
+          />
+          <input
+            type="range"
+            name="force"
+            id="forceSlider"
+            min="0"
+            max="36"
+            value="50"
+          />
+        </div>
+        <div class="inline">
+          <label class="wd75" for="scale">scale</label>
+          <input
+            type="number"
+            min="0"
+            max="64"
+            name="scale"
+            id="scaleValue"
+            value="64"
+          />
+          <input
+            type="range"
+            name="scale"
+            id="scaleSlider"
+            min="0"
+            max="64"
+            value="50"
+          />
+        </div>
+        <div class="inline">
+          <label class="wd75" for="frequency">frequency</label>
+          <input
+            type="number"
+            min="0"
+            max="100"
+            name="frequency"
+            id="frequencyValue"
+            value="100"
+          />
+          <input
+            type="range"
+            name="frequency"
+            id="frequencySlider"
+            min="0"
+            max="100"
+            value="100"
+          />
+        </div>
+        <div class="inline">
+          <label class="wd75" for="wind">wind</label>
+          <input
+            type="number"
+            min="-5"
+            max="5"
+            name="wind"
+            id="windValue"
+            value="0"
+          />
+          <input
+            type="range"
+            name="wind"
+            id="windSlider"
+            min="-5"
+            max="5"
+            value="50"
+          />
+        </div>
+        <div class="inline">
+          <label class="wd75" for="loss">loss</label>
+          <input
+            type="number"
+            min="2"
+            max="10"
+            name="loss"
+            id="lossValue"
+            value="0"
+          />
+          <input
+            type="range"
+            name="loss"
+            id="lossSlider"
+            min="2"
+            max="10"
+            value="0"
+          />
+        </div>
+      </form>
+    </div>
+    <script src="/index.js" type="module"></script>
+  </body>
+</html>

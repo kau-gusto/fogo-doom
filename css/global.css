@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+canvas {
+  background-color: black;
+  image-rendering: pixelated;
+  width: 100%;
+}
+
+button {
+  flex: 1;
+}
+input[type="number"] {
+  width: 40px;
+}
+
+.inline {
+  display: flex;
+}
+
+.block-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  background-color: black;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 10px);
+  width: 100%;
+}
+
+.wd75 {
+  width: 75px;
+}
